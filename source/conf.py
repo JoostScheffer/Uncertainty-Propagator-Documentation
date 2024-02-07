@@ -6,10 +6,13 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import uncertainty_propagator
+
 project = 'Uncertainty Propagator'
 copyright = '2024, J. Scheffer'
 author = 'J. Scheffer'
-release = 'v0.0.1a'
+release = "0.0.1a2"
+
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -19,16 +22,16 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
-    # 'sphinx.ext.napoleon',
+    'sphinx.ext.napoleon',
 ]
 
 # Some config options for parsing th edocstrings
 autodoc_member_order = 'bysource'
-# napoleon_google_docstring = False
-# napoleon_include_init_with_doc = True
-# napoleon_use_param = True
-# napoleon_use_ivar = False
-# napoleon_include_private_with_doc = True
+napoleon_google_docstring = False
+napoleon_include_init_with_doc = True
+napoleon_use_param = True
+napoleon_use_ivar = False
+napoleon_include_private_with_doc = True
 
 templates_path = ['_templates']
 exclude_patterns = []

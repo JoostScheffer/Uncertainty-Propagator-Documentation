@@ -10,7 +10,7 @@ Welcome to Uncertainty Propagator's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   modules
+   uncertainty_propagator
 
 
 

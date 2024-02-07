@@ -1,7 +1,7 @@
-Uncertainty-Propagator
+uncertainty_propagator
 ======================
 
 .. toctree::
    :maxdepth: 4
 
-   propagator
+   uncertainty_propagator
