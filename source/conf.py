@@ -11,7 +11,7 @@ import uncertainty_propagator
 project = 'Uncertainty Propagator'
 copyright = '2024, J. Scheffer'
 author = 'J. Scheffer'
-release = "0.0.1a2"
+release = "0.0.1a3"
 
 
 # -- General configuration ---------------------------------------------------
