@@ -21,3 +21,14 @@ pip install -r requirements.txt
 make html
 
 ```
+
+## Updating the documentation
+
+If only the docstrings of the code have changes no rebuild of the rst files is needed. If for example some new classes or modules have been
+added run the following code to update the rst files:
+
+```bash
+
+shinx-apidoc -o source Uncertainty-Propagator/src/uncertainty_propagator
+
+```
