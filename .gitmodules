@@ -1,0 +1,3 @@
+[submodule "Uncertainty-Propagator"]
+	path = Uncertainty-Propagator
+	url = https://github.com/JoostScheffer/Uncertainty-Propagator
